@@ -23,6 +23,8 @@ contactTab.addEventListener('click', function(e){
     loadContactPage();
 });
 
+//test
+
 
 //add eventlisteners to buttons
 
