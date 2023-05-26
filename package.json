@@ -1,0 +1,23 @@
+{
+  "name": "nail_app",
+  "version": "1.0.0",
+  "description": "Creating app for nail stylist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nailsapp"
+  },
+  "author": "Mathew W",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.4",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
