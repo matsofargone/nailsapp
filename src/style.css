@@ -1,0 +1,166 @@
+body {
+  margin: 0 auto;
+  background-color: darkorchid;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+
+h1 {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.topnav-bar {
+  overflow: hidden;
+}
+
+.topnav-bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav-bar .active {
+    transform: scale(1.2);
+    border: white 4px dashed;
+    border-radius: 10%;
+  }
+
+  .operationHours {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border: whitesmoke dashed 2px;
+    justify-content: space-between;
+    align-content: center;
+    
+  }
+
+  img {
+    padding-right: 40px;
+  }
+
+  .daysList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .daysList li {
+    padding: 5px;
+  
+    
+  }
+
+
+
+  .hourLabel {
+    font-size: 32px;
+    flex-direction: row;
+    font-weight: 900;
+    margin-top: 0;
+  }
+
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introP {
+    font-size: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    width: 50%;
+    word-spacing: 5px;
+    padding: 40px 20px;
+    line-height: 40px;
+  }
+
+  .priceListBox {
+    border: 4px whitesmoke solid;
+    padding: 25px;
+    background-color: hotpink;
+   
+  }
+
+  .priceListItems {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+  }
+
+  form {
+    border: gray 4px solid;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 10px;
+    
+    
+  }
+
+  .formItems {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 10px;
+
+  }
+
+  form label {
+    color: black;
+    width: 75%;
+    font-size: 18px;
+    align-self: center;
+    padding-bottom: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  form input, button {
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10%;
+    
+    
+  }
+
+  input {
+    border-style: none;
+  }
+
+
+  button {
+    
+    color: hotpink;
+    border-style: none;
+    
+  }
+
+ input:hover, button:hover {
+    transform: scale(1.2);
+    background-color: pink;
+  }
+
+  
+
+
+
+  
